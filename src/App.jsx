@@ -1,9 +1,15 @@
-import React from "react";
+import Header from "./components/Header/Header.jsx"
+import Footer from "./components/Footer/Footer.jsx";
 
-export default function App(params) {
+
+function App() {
   return(
-    <div>
-      Hello
-    </div>
-  )
+    <>
+    <Header />
+    <Footer />
+    </>
+  );
+  
 }
+
+export default App
